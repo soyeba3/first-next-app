@@ -1,11 +1,7 @@
-import React from "react"
+import styles from "./singleBlog.module.css";
 
 const BlogPost = () => {
-  return (
-    <div>
-      Blog Post
-    </div>
-  )
+  return <div className={styles.container}>Blog Post</div>;
 };
 
-export default BlogPost
+export default BlogPost;
